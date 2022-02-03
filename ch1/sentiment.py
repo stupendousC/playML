@@ -1,6 +1,7 @@
 
 from transformers import pipeline
 
+# when this runs, will see it pick default model distilbert-base-uncased-finetuned-sst-2-english
 classifier = pipeline("sentiment-analysis")
 
 result1 = classifier("I've been waiting for a HuggingFace course my whole life")
