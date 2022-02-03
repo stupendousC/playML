@@ -9,4 +9,4 @@ result = translator("Je parle francais tres mal!")
 print(result)
 
 # ValueError: This tokenizer cannot be instantiated. Please make sure you have `sentencepiece` installed in order to use this tokenizer.
-# added sentnecepiece to requirements.txt, then pip install that in SSH'd EC2 instance, then run this file 
+# added sentnecepiece to requirements.txt, then pip install that in SSH'd EC2 instance, then run this file
